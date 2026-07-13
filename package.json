@@ -1,0 +1,11 @@
+{
+  "name": "waypoint-workflows-website",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler pages dev .",
+    "deploy": "wrangler pages deploy . --project-name waypoint-workflows"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
