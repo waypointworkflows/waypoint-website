@@ -833,7 +833,7 @@ section {
   display:block;
   line-height:1.15
 }
-.problem-section>div>p:not(.section-kicker):not(.lead) {
+.problem-content > p:not(.section-kicker):not(.lead) {
   font-size:1rem;
   line-height:1.22;
   max-width:1080px;
