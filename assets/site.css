@@ -1198,3 +1198,187 @@ section {
     flex-direction:column
   }
 }
+/* =========================================================
+   WAYPOINT HOMEPAGE — MOBILE REPAIR
+   ========================================================= */
+
+@media (max-width:640px) {
+
+  /* PAGE WIDTH */
+  .home-v11 .container {
+    width:calc(100% - 32px);
+    max-width:1120px;
+  }
+
+  /* HEADER */
+  .home-v11 .nav-wrap {
+    min-height:76px;
+  }
+
+  .home-v11 .brand-image img {
+    width:145px;
+    height:auto;
+  }
+
+  /* HERO */
+  .home-v11 .home-hero {
+    padding:42px 0 48px;
+  }
+
+  .home-v11 .home-tagline {
+    display:block;
+    font-size:.88rem !important;
+    line-height:1.45;
+    margin:0 0 24px !important;
+  }
+
+  .home-v11 .home-hero h1 {
+    font-size:2.15rem;
+    line-height:1.08;
+    letter-spacing:-.035em;
+    margin-bottom:24px;
+  }
+
+  .home-v11 .home-hero-copy > p:not(.home-tagline) {
+    font-size:1rem;
+    line-height:1.65;
+  }
+
+  .home-v11 .home-hero .actions {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:12px;
+  }
+
+  .home-v11 .home-hero .button {
+    width:100%;
+    min-width:0;
+  }
+
+  /* CUSTOMER JOURNEY */
+  .home-v11 .journey-card {
+    width:100%;
+    max-width:none;
+    padding:12px;
+    overflow:hidden;
+  }
+
+  .home-v11 .journey-item {
+    display:grid !important;
+    grid-template-columns:52px minmax(0,1fr) !important;
+    align-items:center;
+    gap:14px;
+    width:100%;
+    padding:14px;
+  }
+
+  .home-v11 .journey-item img {
+    display:block;
+    width:48px !important;
+    height:48px !important;
+    max-width:48px !important;
+    max-height:48px !important;
+    object-fit:contain;
+    margin:0;
+  }
+
+  .home-v11 .journey-item > div {
+    min-width:0;
+  }
+
+  .home-v11 .journey-item strong,
+  .home-v11 .journey-item span {
+    display:block;
+  }
+
+  .home-v11 .journey-item strong {
+    font-size:1.05rem;
+    line-height:1.25;
+    margin-bottom:3px;
+  }
+
+  .home-v11 .journey-item span {
+    font-size:.92rem;
+    line-height:1.45;
+  }
+
+  /* SECTION SPACING */
+  .home-v11 .problem-section,
+  .home-v11 .founder-section,
+  .home-v11 .outcomes-section,
+  .home-v11 .system-section {
+    padding:60px 0;
+  }
+
+  .home-v11 .problem-section h2,
+  .home-v11 .founder-section h2,
+  .home-v11 .outcomes-section h2,
+  .home-v11 .system-section h2 {
+    font-size:2rem;
+    line-height:1.12;
+  }
+
+  /* PRODUCT CARDS */
+  .home-v11 .product-grid {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:28px;
+  }
+
+  .home-v11 .product-card {
+    width:100%;
+    overflow:hidden;
+  }
+
+  .home-v11 .product-card img {
+    display:block;
+    width:100% !important;
+    max-width:260px !important;
+    height:auto !important;
+    max-height:260px;
+    object-fit:contain;
+    margin:0 auto 24px;
+  }
+
+  .home-v11 .product-card h3 {
+    white-space:normal;
+    font-size:1.45rem;
+    line-height:1.2;
+  }
+
+  .home-v11 .product-card ul {
+    margin-bottom:0;
+  }
+
+  /* FOUNDER */
+  .home-v11 .founder-grid {
+    display:grid;
+    grid-template-columns:1fr;
+    gap:30px;
+    max-width:100%;
+  }
+
+  .home-v11 .founder-grid img {
+    display:block;
+    width:100% !important;
+    max-width:260px !important;
+    height:auto !important;
+    margin:0 auto;
+  }
+
+  /* CTA */
+  .home-v11 .home-cta {
+    grid-template-columns:1fr;
+    padding:36px 24px;
+  }
+
+  .home-v11 .home-cta h2 {
+    font-size:1.75rem;
+    line-height:1.15;
+  }
+
+  .home-v11 .home-cta .button {
+    width:100%;
+    min-width:0;
+  }
+}
