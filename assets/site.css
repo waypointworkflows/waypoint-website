@@ -916,8 +916,11 @@ section {
 .product-card small {
   display:block;
   color:#07767d;
-  font-size:.67rem;
-  margin-top:2px
+  font-size:.70rem;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.04em;
+  margin-top:4px
 }
 .founder-section {
   padding:92px 0 88px
