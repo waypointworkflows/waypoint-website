@@ -881,8 +881,8 @@ section {
   font-size:1.23rem;
   display:flex;
   align-items:center;
-  gap:12px;
-  margin:0 0 10px;
+  gap:8px;
+  margin:0 0 6px;
   white-space:nowrap
 }
 .product-card h3 img {
@@ -895,8 +895,8 @@ section {
   background:#fff;
   border-radius:6px;
   color:#111;
-  padding:14px 16px;
-  min-height:126px
+  padding:8px 12px;
+  min-height:92px
 }
 .product-card ul {
   list-style:none;
