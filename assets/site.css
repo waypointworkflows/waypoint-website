@@ -836,7 +836,7 @@ section {
 .problem-content > p:not(.section-kicker):not(.lead) {
   font-size:1rem;
   line-height:1.22;
-  max-width:1080px;
+  max-width:920px;
   margin:0 0 20px
 }
 .approved-checks {
