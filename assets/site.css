@@ -1382,3 +1382,143 @@ section {
     min-width:0;
   }
 }
+/* =========================================================
+   WAYPOINT HOMEPAGE — APPROVED VISUAL BUILD (Picture 9)
+   ========================================================= */
+html, body { overflow-x:hidden; }
+.home-v11 main, .home-v11 section { overflow-x:clip; }
+.home-v11 img { max-width:100%; }
+
+.home-v11 .container { width:min(calc(100% - 40px),1100px); }
+.home-v11 .site-header { position:relative; }
+.home-v11 .nav-wrap { min-height:64px; }
+.home-v11 .brand-image img { width:148px; height:auto; max-height:42px; object-fit:contain; }
+.home-v11 .site-nav { gap:1.05rem; }
+.home-v11 .site-nav>a { font-size:.72rem; }
+.home-v11 .site-nav .button { padding:.58rem 1rem; }
+
+.home-v11 .home-hero { padding:58px 0 56px; }
+.home-v11 .home-hero-grid { grid-template-columns:1.16fr .84fr; gap:58px; }
+.home-v11 .home-tagline { font-size:1rem!important; margin:0 0 32px!important; }
+.home-v11 .home-hero h1 { font-size:3.6rem; line-height:1.08; max-width:600px; margin-bottom:22px; }
+.home-v11 .home-hero-copy>p:not(.home-tagline) { max-width:605px; font-size:.92rem; line-height:1.32; }
+.home-v11 .home-hero .actions { gap:40px; margin-top:30px; }
+.home-v11 .home-hero .button { min-width:180px; padding:.72rem 1rem; font-size:.76rem; }
+.home-v11 .journey-card { max-width:390px; padding:14px; border-radius:15px; box-shadow:5px 6px 7px rgba(0,0,0,.22); overflow:hidden; }
+.home-v11 .journey-item { grid-template-columns:48px 1fr; gap:10px; padding:9px 12px; margin-bottom:9px; border-radius:7px; }
+.home-v11 .journey-item img { width:38px; height:38px; max-width:38px; max-height:38px; object-fit:contain; }
+.home-v11 .journey-item strong { font-size:1rem; }
+.home-v11 .journey-item span { font-size:.82rem; }
+
+.home-v11 .problem-section { padding:66px 0 70px; }
+.home-v11 .problem-content { max-width:1040px; }
+.home-v11 .section-kicker { font-size:.78rem; margin-bottom:12px; }
+.home-v11 .problem-section h2,
+.home-v11 .founder-section h2,
+.home-v11 .outcomes-section h2,
+.home-v11 .system-section h2 { font-size:2.15rem; line-height:1.08; }
+.home-v11 .problem-section .lead { margin:24px 0 24px; font-size:.88rem; }
+.home-v11 .problem-chips { gap:12px; margin-bottom:28px; }
+.home-v11 .problem-chips div { min-height:66px; padding:12px 14px; border-radius:9px; font-size:.70rem; gap:10px; }
+.home-v11 .problem-chips div img { width:27px; height:27px; max-width:27px; max-height:27px; }
+.home-v11 .problem-content>p:not(.section-kicker):not(.lead) { max-width:940px; font-size:.83rem; line-height:1.3; }
+.home-v11 .approved-checks li { font-size:.79rem; margin:6px 0; }
+
+.home-v11 .enterprise-section { position:relative; background:#173b5d; color:#fff; padding:44px 0 42px; overflow:hidden; }
+.home-v11 .enterprise-inner { position:relative; min-height:390px; display:flex; align-items:center; overflow:hidden; }
+.home-v11 .enterprise-copy { position:relative; z-index:2; width:min(760px,72%); }
+.home-v11 .enterprise-copy h2 { margin:0 0 26px; color:#c8e600; font-size:2.2rem; line-height:1.08; }
+.home-v11 .enterprise-copy p { max-width:760px; margin:0 0 18px; font-size:.83rem; line-height:1.25; color:#fff; }
+.home-v11 .enterprise-copy .button { min-width:155px; margin-top:6px; padding:.66rem 1rem; font-size:.74rem; }
+.home-v11 .enterprise-compass { position:absolute; z-index:1; right:-115px; bottom:-122px; width:520px; height:520px; max-width:520px; max-height:520px; object-fit:contain; opacity:.18; pointer-events:none; }
+
+.home-v11 .system-section { padding:58px 0 62px; background:#f6f3ee; color:#17212b; }
+.home-v11 .system-section .lime { color:#07767d; font-weight:500; }
+.home-v11 .system-section h2 { color:#1f497d; }
+.home-v11 .system-intro { color:#17212b; font-size:.82rem; margin:18px 0 20px; }
+.home-v11 .product-grid { gap:18px; }
+.home-v11 .product-card { min-width:0; overflow:hidden; }
+.home-v11 .product-card h3 { color:#07767d; font-size:.92rem; gap:7px; white-space:nowrap; }
+.home-v11 .product-card h3 img { display:block; width:30px!important; height:28px!important; max-width:30px!important; max-height:28px!important; object-fit:contain; margin:0; flex:0 0 30px; }
+.home-v11 .product-card>div { min-height:102px; padding:9px 11px; }
+.home-v11 .product-card li { font-size:.61rem; line-height:1.42; }
+.home-v11 .product-card small { font-size:.58rem; text-align:center; }
+
+.home-v11 .founder-section { padding:72px 0 70px; }
+.home-v11 .founder-grid { max-width:930px; gap:68px; }
+.home-v11 .founder-section h2 { font-size:2rem; }
+.home-v11 .founder-section p { font-size:.82rem; line-height:1.3; }
+.home-v11 .founder-quote { border-radius:18px; padding:22px 25px 18px; }
+.home-v11 .founder-quote blockquote { font-size:1.08rem; }
+
+.home-v11 .outcomes-section { padding:58px 0 64px; }
+.home-v11 .outcomes-wrap { max-width:930px!important; }
+.home-v11 .outcomes-section h2 { font-size:2.05rem; margin-bottom:32px; }
+.home-v11 .outcome-group { margin-bottom:24px; }
+.home-v11 .outcome-group h3 { font-size:1.45rem; gap:10px; margin-bottom:8px; }
+.home-v11 .outcome-group h3 img { width:32px; height:32px; max-width:32px; max-height:32px; object-fit:contain; }
+.home-v11 .outcome-cards { max-width:650px; gap:16px; }
+.home-v11 .outcome-cards article { min-height:86px; padding:11px 18px; border-color:#bfc4c7; }
+.home-v11 .outcome-cards h4 { font-size:.92rem; margin-bottom:10px; }
+.home-v11 .outcome-cards p { font-size:.66rem; }
+
+.home-v11 .home-cta-section { padding:58px 0; }
+.home-v11 .home-cta { max-width:900px; padding:36px 40px 31px; grid-template-columns:1fr 245px; gap:24px 34px; border-radius:18px; overflow:hidden; }
+.home-v11 .home-cta h2 { font-size:1.65rem; }
+.home-v11 .home-cta .button { min-width:225px; font-size:.74rem; }
+.home-v11 .home-cta p { font-size:.68rem; }
+.home-v11 .home-cta>img { right:-28px; bottom:-38px; width:210px; height:210px; max-width:210px; max-height:210px; object-fit:contain; opacity:.38; }
+
+.home-v11 .home-footer { padding:36px 0 18px; }
+.home-v11 .home-footer .footer-grid { max-width:1000px; gap:42px; }
+.home-v11 .footer-logo img { width:190px; max-width:190px; height:auto; }
+.home-v11 .home-footer p { font-size:.65rem; }
+.home-v11 .home-footer h2 { font-size:.58rem; }
+.home-v11 .home-footer a { font-size:.61rem; margin-bottom:9px; }
+.home-v11 .home-footer .footer-bottom { max-width:1000px; font-size:.59rem; margin-top:22px; padding-top:16px; }
+
+@media (max-width:980px) {
+  .home-v11 .home-hero-grid { grid-template-columns:1fr 360px; gap:35px; }
+  .home-v11 .home-hero h1 { font-size:3rem; }
+  .home-v11 .problem-chips { grid-template-columns:repeat(2,1fr); }
+  .home-v11 .enterprise-copy { width:74%; }
+  .home-v11 .enterprise-compass { right:-165px; }
+  .home-v11 .product-grid { grid-template-columns:repeat(2,1fr); }
+}
+
+@media (max-width:768px) {
+  .home-v11 .home-hero-grid { grid-template-columns:1fr; }
+  .home-v11 .journey-card { max-width:520px; }
+  .home-v11 .enterprise-inner { min-height:430px; }
+  .home-v11 .enterprise-copy { width:82%; }
+  .home-v11 .enterprise-compass { right:-220px; bottom:-130px; }
+  .home-v11 .founder-grid { grid-template-columns:1fr; gap:30px; }
+  .home-v11 .home-cta { grid-template-columns:1fr; }
+  .home-v11 .home-cta p { grid-column:auto; }
+}
+
+@media (max-width:640px) {
+  .home-v11 .container { width:calc(100% - 32px); }
+  .home-v11 .home-hero { padding:38px 0 42px; }
+  .home-v11 .home-tagline { font-size:.78rem!important; line-height:1.5; margin-bottom:20px!important; }
+  .home-v11 .home-hero h1 { font-size:2.15rem; line-height:1.08; }
+  .home-v11 .home-hero-copy>p:not(.home-tagline) { font-size:.92rem; line-height:1.5; }
+  .home-v11 .journey-card { max-width:none; }
+  .home-v11 .problem-chips { grid-template-columns:1fr; }
+  .home-v11 .problem-section h2,
+  .home-v11 .founder-section h2,
+  .home-v11 .outcomes-section h2,
+  .home-v11 .system-section h2 { font-size:1.8rem; }
+  .home-v11 .enterprise-section { padding:48px 0; }
+  .home-v11 .enterprise-inner { min-height:0; }
+  .home-v11 .enterprise-copy { width:100%; }
+  .home-v11 .enterprise-copy h2 { font-size:1.9rem; }
+  .home-v11 .enterprise-copy p { font-size:.83rem; }
+  .home-v11 .enterprise-compass { right:-185px; bottom:-70px; width:360px; height:360px; max-width:360px; max-height:360px; opacity:.12; }
+  .home-v11 .product-grid { grid-template-columns:1fr; }
+  .home-v11 .product-card h3 img { width:30px!important; height:28px!important; max-width:30px!important; max-height:28px!important; margin:0!important; }
+  .home-v11 .outcome-cards { grid-template-columns:1fr; }
+  .home-v11 .home-cta { padding:32px 24px; }
+  .home-v11 .home-cta h2 { font-size:1.45rem; }
+  .home-v11 .home-cta>img { width:165px; height:165px; max-width:165px; max-height:165px; right:-45px; bottom:-36px; }
+}
